@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="br.com.criandojogosandroid.cap06ex01_imagens"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SimpleActivity"
+            android:label="Carregando uma Imagem">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.SimpleActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormatsActivity"
+            android:label="Formatos de Imagem">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.FormatsActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TransformationActivity"
+            android:label="Transformações em Imagem">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.TransformationActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RectActivity"
+            android:label="Desenhando Imagens Parciais">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.RectActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GeometryActivity"
+            android:label="Modificando a Geometria das Imagens">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.GeometryActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColorTransformActivity"
+            android:label="Clareando uma Imagem">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.ColorTransformActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PixelTransformActivity"
+            android:label="Criando Efeito de Distorção">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.PixelTransformActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColorMatrixActivity"
+            android:label="Filtros Usando ColorMatrix">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.ColorMatrixActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BlurActivity"
+            android:label="Criando Efeito de Blur">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.BlurActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConvolveActivity"
+            android:label="Filtros Usando Matriz de Convolução">
+            <intent-filter>
+                <action android:name="br.com.criandojogosandroid.imagensteste.ConvolveActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
